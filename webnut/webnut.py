@@ -54,6 +54,7 @@ class WebNUT(object):
                             'status': ups_vars.get('ups.status', 'Unknown'),
                             'battery': int(ups_vars.get('battery.charge', 0)),
                             'runtime': runtime,
+                            'load': ups_vars['ups.load'],
                         }
             return ups_list
         except nut2.PyNUTError:

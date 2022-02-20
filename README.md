@@ -1,3 +1,5 @@
+Adapted [edgd1er's](https://github.com/edgd1er/docker-webnut) image improvements, [AdeMiller's](https://github.com/AdeMiller/webNUT) app improvements, and [jasonhensler's](https://github.com/jasonhensler/webNUT) display bar additions into a single all-in-one image.
+
 webNUT
 ======
 

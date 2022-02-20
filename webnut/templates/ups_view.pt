@@ -38,7 +38,9 @@
             <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap4.min.js"></script>
             <script type="text/javascript">
                 $(function(){
-                    $("#var_table").dataTable();
+                    $("#var_table").dataTable({
+                        "pageLength": 100
+                    });
                 });
             </script>
     </div>
